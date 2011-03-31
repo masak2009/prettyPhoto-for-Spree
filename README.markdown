@@ -3,6 +3,7 @@ Pretty Photo
 
 This extension adds prettyPhoto lightbox for full image size view.
 
+![lightbox](http://www.no-margin-for-errors.com/wp-content/uploads/2009/11/prettyPhoto.jpg "prettyPhoto lightbox")
 
 QUICK START
 ===============
