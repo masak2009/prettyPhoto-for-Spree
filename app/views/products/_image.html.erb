@@ -1,0 +1,5 @@
+<% if image %> 
+  <%= image_tag image.attachment.url(:product) %>
+<% else %>
+  <%= link_to(product_image(@product), product_image_path(@product, :original), :rel => 'lightbox') %>
+<% end %>
