@@ -14,9 +14,9 @@ QUICK START
 
         Copy pretty_photo folder into your_spree/vendor/extensions
 
-3. Check your head
+3. Check your head and others
 
-        Check if you have not overrided shared/_head.html.erb in others extensions
+        Check if you have not overrided shared/_head.html.erb and products/_image.html.erb in others extensions
 
 4. It's done!
 
