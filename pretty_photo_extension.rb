@@ -23,6 +23,15 @@ class PrettyPhotoExtension < Spree::Extension
           image_path product.images.first.attachment.url(image_style)
         end
       end
+
+      def product_image(product)
+        if product.images.empty?
+          image_tag "noimage/product.jpg"  
+        else
+          image_tag(product.images.first.attachment.url(:product),:alt => product.name)  
+        end
+      end
+
     end
 
     # Add your extension tab to the admin.
